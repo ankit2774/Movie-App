@@ -25,8 +25,8 @@ public class SearchActivity extends AppCompatActivity {
         menu.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent menu=new Intent(getApplicationContext(), DashboardActivity.class);
-                startActivity(menu);
+                Intent gomenu=new Intent(getApplicationContext(), DashboardActivity.class);
+                startActivity(gomenu);
             }
         });
 
