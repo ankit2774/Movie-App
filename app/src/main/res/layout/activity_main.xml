@@ -2,7 +2,7 @@
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#AA499090"
+    android:background="@drawable/gradient_background"
     xmlns:android="http://schemas.android.com/apk/res/android">
     <TextView
         android:layout_width="match_parent"
@@ -11,14 +11,21 @@
         android:textStyle="bold"
         android:textAlignment="center"
         android:textSize="25dp"
-        android:textColor="#E4000000"
+        android:textColor="#E4000000"/>
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_margin="10dp"
+
+        android:background="@drawable/baseline_catching_pokemon_24"/>
+
     <EditText
         android:drawableLeft="@drawable/baseline_account_circle_24"
         android:id="@+id/uname"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="  USERNAME"
-        android:background="#AA656D6D"
+        android:background="#34000000"
         android:padding="10dp"
         android:layout_margin="20dp"/>
     <EditText
@@ -27,7 +34,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="  PASSWORD"
-        android:background="#AA656D6D"
+        android:background="#34000000"
         android:padding="10dp"
         android:layout_margin="20dp"/>
     <androidx.appcompat.widget.AppCompatButton
